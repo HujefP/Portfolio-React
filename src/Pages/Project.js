@@ -30,7 +30,7 @@ Technologies Used: HTML, CSS, JavaScript, React, GitHub API
 <br/>
 GitHub Repository: <a href="https://github.com/HujefP/react-intro" target="blank">Click Here</a></div>
 
-Feel free to explore the projects by visiting the GitHub repositories linked above. You can find more of my work on my GitHub profile: [Link to GitHub Profile].
+Feel free to explore the projects by visiting the GitHub repositories linked above. You can find more of my work on my GitHub profile:<a href="https://github.com/HujefP" target="blank"> View Profile</a>.
 </p>
 <div>
                 <p>Thank you for visiting my portfolio! I'm excited to collaborate on exciting web development projects.</p>
