@@ -141,7 +141,14 @@ img{
     margin-left: 10px;
   }
   .aboutme{
+    margin-left: 1px;
     width: 550px;
   }
-  
+  .grid img{
+    margin: 5px;
+    margin-left: 10px;
+  }
+  .flex{
+    gap: 0;
+  }
 }
