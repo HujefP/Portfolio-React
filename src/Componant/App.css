@@ -41,11 +41,25 @@ img{
   padding: 5px 25px;
   margin-block: 10px;
   cursor: pointer;
+  position: relative;
 }
 .card:hover{
   transform: scale(1.1);
   margin-left: 10px;
   background-color: rgb(233, 233, 233);
+}
+.card-img{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.card-img a{
+  width: 30px;
+}
+.card img{
+  width: 30px;
+  bottom: 0px;
+  right: -80px;
 }
 .bg{
   background-image: url(img/Full-Stack-Web-Developer--1-.png);
@@ -60,7 +74,13 @@ img{
 .bg p{
   font-weight: 650;
 }
-
+.bg img{
+  animation: grow 3s ease-in-out infinite;
+}
+.bg img:hover{
+  cursor: pointer;
+  animation: grow 4s ease-in-out 0;
+}
 .bg::after {
   content: "";
   position: absolute;
@@ -71,9 +91,37 @@ img{
   background-color: rgba(255, 255, 255, 0.192); 
   opacity: 0.5; 
 }
-
-
-
+.flex{
+  display: flex;
+  gap: 55px;
+}
+.grid{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.grid img{
+  width: 50px;
+  cursor: pointer;
+  animation: grow 4s ease-in-out 2;
+}
+@keyframes grow {
+  0%{
+    transform: scale(0.5);
+  }
+  50%{
+    transform: scale(0.7);
+  }
+  75%{
+    transform: scale(0.8);
+  }
+  100%{
+    transform: scale(1.0);
+  }
+}
+.grid img:hover{
+  animation: grow 4s ease-in-out 0;
+  transform: scale(1.2);
+}
 
 
 

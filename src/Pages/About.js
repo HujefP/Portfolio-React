@@ -1,4 +1,12 @@
-
+import Icon from '../Componant/icons/bootstrp.png'
+import Icon2 from '../Componant/icons/css.jpg'
+import Icon3 from '../Componant/icons/HTML5_badge.png'
+import Icon4 from '../Componant/icons/js.jpg'
+import Icon5 from '../Componant/icons/react.png'
+import Icon6 from '../Componant/icons/node.png'
+import Icon7 from '../Componant/icons/mongodb-3-1175138.webp'
+import Icon8 from '../Componant/icons/vercel.png'
+import Icon9 from '../Componant/icons/github_PNG40.png'
 function About() {
     return (
         <div >
@@ -16,7 +24,7 @@ function About() {
                     <li> Description: Currently working in Infosys as a System Engineer.</li>
                     <li>Good Knowledge on HTML, CSS, JavaScript, React js, Node Js and github</li>
                     <li>Having Some Strenghts are Effective communication, working closely with people, easily adopt new tools</li>
-                    <li>omplete work with passion and fulfill buisness.</li>
+                    <li>Complete work with passion and fulfill buisness.</li>
                 </ul>
 
             </p>
@@ -29,18 +37,28 @@ function About() {
                     <li>Diploma in mechanical at Mumbai univarsity in 2018.</li>
                 </ul>
             </p>
-            <p className="about">
-                Courses Completed:
+            <p className="about flex">
+                
                 <ul>
-                    <li>
-                        HTML
-                    </li>
+                Courses Completed:
+                    <li>HTML</li>
                     <li>CSS</li>
                     <li>JavaScript</li>
                     <li>Bootstrap</li>
                     <li>React Js</li>
                     <li>Node Js</li>
                 </ul>
+                <div className='grid'>
+                <img src={Icon3} alt=''></img>
+                <img src={Icon2} alt=''></img>
+                <img src={Icon4} alt=''></img>
+                <img src={Icon} alt=''></img>
+                <img src={Icon5} alt=''></img>
+                <img src={Icon6} alt=''></img>
+                <img src={Icon7} alt=''></img>
+                <img src={Icon8} alt=''></img>
+                <img src={Icon9} alt=''></img>
+                </div>
             </p>
 
             <div>
