@@ -9,7 +9,7 @@ import Icon8 from '../Componant/icons/vercel.png'
 import Icon9 from '../Componant/icons/github_PNG40.png'
 function About() {
     return (
-        <div >
+        <div className='aboutme'>
             <h1>About Me</h1>
             <p>Hi Everyone My name is <strong>Hujef Patel</strong>  </p>
             <p className="about">Work Experience:
